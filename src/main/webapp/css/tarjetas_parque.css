@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+.body .tajetas{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Cards*/
+.container-card{
+	width: 90%;
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+
+/*Fondo*/
+.card{
+	width: 100%;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	background:#fff;
+	box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+	transition: all 400ms ease-out;
+	cursor: default;
+}
+
+
+/*Salto*/
+.card:hover{
+	box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+	transform: translateY(-3%);
+}
+
+
+.card img{
+	width: 100%;
+	height: 210px;
+}
+
+
+.card .contenido-card{
+	padding: 15px;
+	text-align: center;
+}
+
+
+.card .contenido-card h3{
+	margin-bottom: 35px;
+	color: #7a7a7a;
+}
+
+/*Letra contenido*/
+.card .contenido-card p{
+	line-height: 1.8;
+	color: #6a6a6a;
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+
+
+.card .contenido-card a{
+	display: inline-block;
+	padding: 10px;
+	/*Agrandar el margen*/
+	margin-top: 10px;
+	text-decoration: none;
+	color: #2fb4cc;
+	border: 1px solid #2fb4cc;
+	border-radius: 4px;
+	transition: all 400ms ease;
+	margin-bottom: 5px;
+}
+
+
+.card .contenido-card a:hover{
+	background: #2fb4cc;
+	color: #fff;
+}
+
+

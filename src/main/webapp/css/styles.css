@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+/*Importar el estilo de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap');
+
+body{
+	box-sizing: border-box;
+	
+}
+
+/*Color de fondo*/
+.main-header{
+	 
+	background: url("https://www.arch-bioec.com/wp-content/uploads/2021/02/au2.jpg");
+	
+	/*No repetir foto*/
+	background-repeat: no-repeat;
+	
+	/*Centrar*/
+	background-position:center;
+	
+	/*Cubrir todo el espacio disponible*/
+	background-size: cover;
+	
+	
+	height: 968px;
+	font-family: "Dosis",sans-serif;
+	
+	position: relative;
+	
+	overflow:hidden;
+}
+
+
+
+
+
+/*Color del listado*/
+
+ul{
+	
+	/*Li delante de otro*/
+	display: flex;
+	
+	/*Recorre el listado*/
+	margin-left:auto;
+	
+	/*Centrar*/
+	margin-right: 100px;
+	
+}
+
+/*Links*/
+ul li a {
+	display: inline-block;
+	
+	/*Más grande los lados*/
+	padding: 20px 40px;
+	
+	/*Agrandar*/
+	font-size: 1.3rem;
+	
+	/*Color de los links*/
+	color: #fff;
+}
+
+
+/*Color resto de botones*/
+ul li a:hover{
+	background: #4141ef;
+	
+}
+ 
+
+/*Tamaño de la caja*/
+.content-header {
+	
+	color:#fff;
+	
+	/*Centrar*/
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	
+	text-align: center;
+} 
+
+/*Tamado del título*/
+.content-header h1{
+	font-size: 6.5rem;
+	
+}
+
+.content-header p{
+	font-size: 1.3rem;
+	margin: 15px 30px;
+}
+
+/*Color botón*/
+.content-header a{
+	font-size: 1.3rem;
+	display: inline-block;
+	padding: 15px 20px;
+	background: #4141ef;
+	color: #fff;
+}
+
+/*Color al accionar el boton*/
+.content-header a:hover{
+	background: #6868f1 ;
+	border: 2px solid #fff;
+	padding: 5px 18px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+/*Color de navegación*/
+.main-nav {
+	
+	
+	/*Poner a la par el contenido*/
+	display: flex;
+	
+	/*Sombra con la combinación de 2 colores*/
+	
+	background-color: #1E1E1E;
+
+}
+
+
+
+/*Color de logo*/
+.logo {
+	
+	/*Centrar el logo*/
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+	
+	/*Margen*/
+	margin-left: 100px;
+	
+	/*Más grande los lados*/
+	padding: 20px 40px;
+	
+	/*Agrandar*/
+	font-size: 1.3rem;
+	
+	color: #fff;
+}
